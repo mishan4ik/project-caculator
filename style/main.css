@@ -1,0 +1,102 @@
+.calculator{
+	display: flex;
+	justify-content: center;
+
+}
+.container{
+	min-width: 300px;
+	min-height: 600px; 
+	border: 1px solid black;
+	border-radius: 30px;
+	margin-top: 150px;
+	box-shadow: 5px 5px 5px black;
+	background-image:url("../img/fon.jpg");
+	background-position: left top;
+
+
+}
+.block__result{
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+	max-width: 100%;
+}
+
+.block__result>input{
+	border: 1px solid black;
+	padding-bottom: 5px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif; 
+	width: 100%;
+	height: 60px;
+	font-size: 30px;
+	font-weight: bold;
+}
+/* block result */
+
+
+
+/* кнопки калькулятора */
+
+.first__lineButtons,.second__lineButtons,.third__lineButtons{
+	display: flex;
+	margin-top: 50px;
+
+}
+.zerobtn,.onebtn,.twobtn,.plusbtn{
+	width: 60px;
+	height: 60px;
+	border: 1px solid black;
+	text-align: center;
+	display: block;
+	margin: 0px auto;
+	line-height: 50px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+}
+.minusbtn{
+	width: 60px;
+	height: 60px;
+	border: 1px solid black;
+	text-align: center;
+	display: block;
+	margin: 0px auto;
+	line-height: 50px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+}
+.threebtn,.fourbtn,.fivebtn,.multiplybtn,.divisionbtn{
+	width: 60px;
+	height: 60px;
+	border: 1px solid black;
+	text-align: center;
+	display: block;
+	margin: 0px auto;
+	line-height: 50px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+}
+.sixbtn,.sevenbtn,.eightbtn,.equalsbtn,.ninebtn{
+	width: 60px;
+	height: 60px;
+	border: 1px solid black;
+	text-align: center;
+	display: block;
+	margin: 0px auto;
+	line-height: 50px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.sevenbtn:hover,.sixbtn:hover,.divisionbtn:hover,.multiplybtn:hover,
+.fivebtn:hover,.fourbtn:hover,.threebtn:hover,.minusbtn:hover,.plusbtn:hover,
+.twobtn:hover,.onebtn:hover,.zerobtn:hover,.eightbtn:hover,.equalsbtn:hover,
+.ninebtn:hover
+
+{
+	background-color: black;
+	color: #fff;
+}

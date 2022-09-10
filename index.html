@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./style/main.css">
+	<link rel="stylesheet" href="./style/reset.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+
+	<main>
+		<section class="calculator">
+		<div class="container">
+			<div class="block__result">
+			
+			<input id="result" readonly="" type="text" >
+
+			</div><!--block__result-->
+
+			<div class="container__buttons">
+				
+				<div class="first__lineButtons">
+					<a id="zero" class="zerobtn" onclick=" calc(0)"href="#">0</a>
+					<a id="one"  class="onebtn" onclick=" calc(1)"    href="#">1</a>
+					<a id="two"  class="twobtn" onclick=" calc(2)"   href="#">2</a>
+					<a id="three" class="threebtn" onclick=" calc(3)" href="#">3</a>
+					<a id="four" class="fourbtn" onclick=" calc(4)"   href="#">4</a>
+					</div><!--first__lineButtons-->
+					<div class="first__lineButtons">
+					<a id="five" class="fivebtn" onclick=" calc(5)"   href="#">5</a>
+					<a id="six" class="sixbtn" onclick=" calc(6)"   href="#">6</a>
+					<a id="seven" class="sevenbtn" onclick=" calc(7)"  href="#">7</a>
+					<a id="eight" class="eightbtn" onclick=" calc(8)"  href="#">8</a>
+					<a id="nine" class="ninebtn" onclick=" calc(9)"   href="#">9</a>
+					</div><!--first__lineButtons-->
+					<div class="first__lineButtons">
+					<a id="plus" class="plusbtn" onclick=" calc('+')"   href="#">+</a>
+					<a id="minus" class="minusbtn" onclick=" calc('-')"   href="#">-</a>
+					<a id="division" class="divisionbtn" onclick=" calc('/')"   href="#">/</a>
+					<a id="multiply" class="multiplybtn" onclick=" calc('*')"  href="#">*</a>
+					<a id="equals" class="equalsbtn" onclick=" result()"  href="#">=</a>
+					
+				</div><!--first__lineButtons-->
+					
+
+			</div><!--container__buttons-->
+
+
+		</div><!--container-->
+
+	</section><!--calculator-->
+
+	</main>
+
+	<script src="./js/main.js"></script>
+	
+</body>
+</html>
